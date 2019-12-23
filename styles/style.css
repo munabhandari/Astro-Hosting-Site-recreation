@@ -45,10 +45,6 @@ header {
 	vertical-align: middle;
 }
 
-header nav ul {
-	/* padding: 30px 20px; */
-}
-
 header nav ul li:last-child {
 	padding-right: 0;
 }
@@ -57,9 +53,9 @@ header nav ul li:last-child .search {
 	border-radius: 5px;
 	border: 1px solid #ced9df;
 	line-height: 40px;
-	/* margin-top: 16px; */
 	padding: 0 5px;
 }
+
 header nav ul li input {
 	padding: 2px 2px;
 	background-color: #f7f9fb;
@@ -77,10 +73,10 @@ header nav ul li a {
 	text-decoration: none;
 }
 
-.header-bottom {
-	/* line-height: 76px; */
+.container {
+	position: relative;
+	height: 400px;
+	background-image: url("../images/Mid Server.png"), url("../images/Mid Cloud.png"), url("../images/Left Server.png"), url("../images/Right Server.png"), url("../images/Clouds.png"), url("../images/World Map.png"), url("../images/bg-img.png");
+	background-repeat: no-repeat,no-repeat,no-repeat,no-repeat,no-repeat,no-repeat,repeat;
+	background-position: 65% 80%, 40% 100%, 50% 80%, 75% 80%, bottom, center top, left bottom;
 }
-
-/* nav ul li:lastchild{ */
-
-/* } */
