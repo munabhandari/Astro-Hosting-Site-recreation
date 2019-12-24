@@ -14,7 +14,7 @@ header {
 }
 
 .middle {
-	width: 80%;
+	width: 60%;
 	margin: auto;
 }
 
@@ -74,9 +74,122 @@ header nav ul li a {
 }
 
 .container {
+	color: white;
 	position: relative;
 	height: 400px;
 	background-image: url("../images/Mid Server.png"), url("../images/Mid Cloud.png"), url("../images/Left Server.png"), url("../images/Right Server.png"), url("../images/Clouds.png"), url("../images/World Map.png"), url("../images/bg-img.png");
-	background-repeat: no-repeat,no-repeat,no-repeat,no-repeat,no-repeat,no-repeat,repeat;
+	background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, repeat;
 	background-position: 65% 80%, 40% 100%, 50% 80%, 75% 80%, bottom, center top, left bottom;
+}
+
+.container h1 {
+	font-size: 30px;
+}
+
+.container h2 {
+	font-size: 18px;
+}
+
+.container p {
+	margin-top: 15px;
+	font-size: 14px;
+}
+
+.server ul {
+	margin-left: 40px;
+	list-style-image: url('../images/CheckMark.png');
+}
+
+.plan1 {
+	text-align: center;
+}
+
+.grid-3 {
+	margin: 40px auto;
+	text-align: center;
+	display: grid;
+	grid-template-columns: auto auto auto;
+}
+
+.domain {
+	text-align: center;
+}
+
+.domain form {
+	border: 1px solid #dfdfdf;
+	border-radius: 5px;
+	width: 60%;
+	margin: auto;
+	padding: 2px;
+	background: rgb(238, 242, 246);
+	background: -moz-linear-gradient(180deg, rgba(238, 242, 246, 1) 0%, rgba(254, 255, 255, 1) 100%);
+	background: -webkit-linear-gradient(180deg, rgba(238, 242, 246, 1) 0%, rgba(254, 255, 255, 1) 100%);
+	background: linear-gradient(180deg, rgba(238, 242, 246, 1) 0%, rgba(254, 255, 255, 1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#eef2f6", endColorstr="#feffff", GradientType=1);
+}
+
+.domain form select {
+	width: 74%;
+	padding: 13px 10px;
+	border: 1px solid #dfdfdf;
+	background: rgb(238, 242, 246);
+	background: -moz-linear-gradient(180deg, rgba(238, 242, 246, 1) 0%, rgba(254, 255, 255, 1) 100%);
+	background: -webkit-linear-gradient(180deg, rgba(238, 242, 246, 1) 0%, rgba(254, 255, 255, 1) 100%);
+	background: linear-gradient(180deg, rgba(238, 242, 246, 1) 0%, rgba(254, 255, 255, 1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#eef2f6", endColorstr="#feffff", GradientType=1);
+}
+
+.domain form input {
+	width: 25%;
+	background-color: #52c0ee;
+	color: white;
+	border-radius: 10px;
+	border: 1px solid #4d9fc2;
+	padding: 13px 10px;
+}
+
+.grid-4 {
+	/* height: 310px; */
+	display: grid;
+	grid-column-gap: 30px;
+	grid-template-columns: auto auto auto auto;
+	
+}
+
+.grid-item{
+	
+	border: 1px solid grey;
+	border-radius: 20px;
+	/* overflow: hidden; */
+	position: relative;
+	padding-bottom: 40px;
+}
+
+.grid-item .bg{
+	height: 155px;
+	background-size: contain, 40%;
+	border-radius: 20px 20px 0 0;
+	color: white;
+	
+	background-color: #41bdef;
+	background-image: url("../images/Clouds.png"), url("../images/Server.png"), url("../images/World Map.png");
+	background-repeat: no-repeat;
+	background-position: 0 101%, 47% 100%, center top;
+
+}
+.grid-item .circle{
+	height: 84px;
+	color: white;
+	width: 84px;
+	border-radius: 100%;
+	border: 10px solid white;
+	position: absolute;
+	left: 30%;
+	top: -15%;
+	background-color: #41bdef;
+}
+
+.grid-item .content{
+	padding-left: 75px;
+	list-style-image: url('../images/CheckMark.png');
 }
